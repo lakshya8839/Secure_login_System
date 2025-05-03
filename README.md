@@ -1,76 +1,61 @@
 Secure Login System
-A simple and secure login system built using Python, CustomTkinter for the GUI, and MySQL for user authentication and data storage.
+A simple and secure login system built using Python, CustomTkinter for GUI, and MySQL for database authentication.
 
 🚀 Features
-Modern GUI built with CustomTkinter
+-Modern GUI with CustomTkinter
 
-User Registration and Login system
+-Register, Login & Forgot Password features
 
-Password visibility toggle
+-Password show/hide toggle
 
-Light and Dark mode support
+-Light/Dark mode switching
 
-Form validation and error handling
+-MySQL user validation
 
-MySQL database integration for user data
+-Clean and minimal layout
 
 🔧 Tech Stack
-Python
+-Python
 
-CustomTkinter (GUI framework)
+-CustomTkinter
 
-Pillow (for image handling)
+-Pillow (image handling)
 
-MySQL (database backend)
+-MySQL
 
 📚 Key Learnings
-GUI design using CustomTkinter
+-GUI design with CustomTkinter
 
-Real-world database integration with MySQL
+-MySQL-Python integration
 
-Handling user authentication securely
+-User authentication flows
 
-Managing user experience through features like password toggle and theme switching
+-UI responsiveness and structure
 
-🚀 Future Scope
-Password hashing and encryption for enhanced security
+🔮 Future Scope
+-Encrypt passwords with hashing
 
-Role-based user management (Admin/User)
+-Admin panel & user dashboard
 
-Post-login dashboard with extended features
+-Desktop app packaging
 
-Packaging as a desktop app with installer
+-Role-based access control
 
-💻 How to Run the Project
-Clone the repository:
+🛠️ How to Run
+Clone the repo:
+git clone https://github.com/lakshya8839/Secure_login_System
 
-bash
-Copy
-Edit
-git clone https://github.com/YourUsername/secure-login-system.git
 Install dependencies:
-
-bash
-Copy
-Edit
 pip install customtkinter pillow mysql-connector-python
-Set up your MySQL database:
 
-Create a database named login
+Create a MySQL database called login
+(The users table will be created automatically)
 
-The required table will be created automatically when you run the code
-
-Run the main script:
-
-bash
-Copy
-Edit
+Run the Python file:
 python main.py
-📂 Screenshots
 
+📷 Screenshots
+![Secure Login System](https://github.com/user-attachments/assets/b27b2ddc-e6e8-4830-8c38-221634d640bb)
 
-🤝 Contributing
-Feel free to fork the repo and suggest improvements via pull requests. Feedback and ideas are welcome!
-
-⭐ Show Your Support
-If you find this project useful, please consider giving it a ⭐ on GitHub and sharing it with others!
+⭐ Like the Project?
+Star ⭐ the repo and share it with others!
